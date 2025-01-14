@@ -5,6 +5,8 @@ HOC for React to relieve Provider Hell
 ### 📖 Example
 
 ```tsx
+import withProviders from "react-with-providers";
+
 export function Component() {
     return (
         <ProviderA>
