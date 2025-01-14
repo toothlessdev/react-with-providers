@@ -1,0 +1,39 @@
+{
+    "name": "react-with-providers",
+    "version": "1.0.0",
+    "description": "HOC for React to relieve Provider Hell",
+    "main": "dist/cjs/index.js",
+    "module": "dist/esm/index.js",
+    "types": "dist/index.d.ts",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/toothlessdev/react-with-providers.git"
+    },
+    "keywords": [
+        "react"
+    ],
+    "author": "toothlessdev",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/toothlessdev/react-with-providers/issues"
+    },
+    "homepage": "https://github.com/toothlessdev/react-with-providers#readme",
+    "files": [
+        "dist",
+        "README.md"
+    ],
+    "scripts": {
+        "build": "rollup --config rollup.config.mjs"
+    },
+    "peerDependencies": {
+        "react": "^18.0.0"
+    },
+    "devDependencies": {
+        "rollup-plugin-dts": "^6.1.1",
+        "rollup-plugin-typescript2": "^0.36.0",
+        "@rollup/plugin-commonjs": "^28.0.2",
+        "@rollup/plugin-node-resolve": "^16.0.0",
+        "rollup-plugin-peer-deps-external": "^2.2.4",
+        "@types/react": "^18.0.0"
+    }
+}
